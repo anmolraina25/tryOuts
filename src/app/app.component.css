@@ -1,0 +1,41 @@
+.main-container {
+    background-color: #fed9ff;
+    width: 100vw;
+    height: 150vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+.header {
+    background-color: #50ce16;
+    width: 100vw;
+    height: 25%;
+}
+.middle {
+    background-color: #9d15a1;
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.vertical-stroke-container {
+    background-color: #810e13;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.footer {
+    background-color: #110a11;
+    width: 100vw;
+    height: 25%;
+}
+svg#chart {
+    background: lightgray;
+    width: 25%;
+    height: 100%;
+}
+#chart line {stroke: #555555; stroke-width:3}
