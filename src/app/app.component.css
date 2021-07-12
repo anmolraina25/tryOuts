@@ -10,12 +10,45 @@
 .header {
     background-color: #50ce16;
     width: 100vw;
-    height: 25%;
+    height: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    background-color: #9d15a1;
+    width: 30%;
+    height: 30%;
+}
+.logo-text {
+    background-color: #4e1550;
+    width: 30%;
+    height: 40%;
+}
+.explore {
+    background-color: #9d15a1;
+    width: 30%;
+    height: 30%;
+}
+.explore-pics {
+    background-color: #4e1550;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.explore-item {
+    background-color: #9d15a1;
+    width: 30%;
+    height: 30%;
 }
 .middle {
     background-color: #9d15a1;
     width: 100vw;
-    height: 50%;
+    height: 20%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -31,7 +64,11 @@
 .footer {
     background-color: #110a11;
     width: 100vw;
-    height: 25%;
+    height: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 svg#chart {
     background: lightgray;
